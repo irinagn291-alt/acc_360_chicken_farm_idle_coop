@@ -1,0 +1,222 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project MeadowQuill.xcodeproj -scheme MeadowQuill -configuration Debug -destination id=5F1BB3EA-81A2-46D6-ADBA-EC2E8753F3BC -parallel-testing-enabled NO -derivedDataPath Artifacts/Build -resultBundlePath QA/iPad.xcresult -jobs 2 CODE_SIGNING_ALLOWED=NO test-without-building
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Writing result bundle at path:
+	/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/04_chicken_road/03_farm_idle_coop/QA/iPad.xcresult
+
+2026-11-15 12:38:54.783111+0300 QuillWalk-Runner[63907:6308905] [Default] Running tests...
+2026-11-15 12:38:55.029566+0300 QuillWalk-Runner[63907:6308905] [UIKit App Config] Update the Info.plist: Launch screens will soon be required.
+    t =      nans Interface orientation changed to Portrait
+Test Suite 'All tests' started at 2026-11-15 12:39:11.309.
+Test Suite 'QuillWalk.xctest' started at 2026-11-15 12:39:11.309.
+Test Suite 'pzWalk' started at 2026-11-15 12:39:11.309.
+Test Case '-[QuillWalk.pzWalk testFarmJourney]' started.
+    t =     0.01s Start Test at 2026-11-15 12:39:11.322
+objc[63907]: Class UIAccessibilityLoaderWebShared is implemented in both /private/var/run/com.apple.security.cryptexd/mnt/com.apple.iPhoneOS.SimulatorRuntime-v24.2.8117.0.Z3Mabo/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 27.2.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x107788310) and /private/var/run/com.apple.security.cryptexd/mnt/com.apple.iPhoneOS.SimulatorRuntime-v24.2.8117.0.Z3Mabo/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 27.2.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x1077bc398). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+    t =     0.57s Set Up
+    t =     0.59s Open net.meadowquill.coop731
+    t =     0.59s     Launch net.meadowquill.coop731
+2026-11-15 12:39:14.368 xcodebuild[61333:6294088] [MT] IDELaunchParametersSnapshot: debugger version lookup failed for path '<nil>': noURL
+2026-11-15 12:39:14.368 xcodebuild[61333:6294088] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =    19.28s         Setting up automation session
+    t =    26.06s         Wait for net.meadowquill.coop731 to idle
+    t =    36.91s Waiting 20.0s for "settings" Button to exist
+    t =    37.95s     Checking `Expect predicate `existsNoRetry == 1` for object "settings" Button`
+    t =    37.97s         Checking existence of `"settings" Button`
+    t =    38.42s Find the Target Application 'net.meadowquill.coop731'
+    t =    39.08s Added attachment named '01-yard-cold-start'
+    t =    39.09s Tap "Barn" Button
+    t =    39.09s     Wait for net.meadowquill.coop731 to idle
+    t =    39.09s     Find the "Barn" Button
+    t =    40.24s         Find the "Barn" Button (retry 1)
+    t =    41.34s         Find the "Barn" Button (retry 2)
+    t =    41.40s Requesting snapshot of accessibility hierarchy for app with pid 66015
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/04_chicken_road/03_farm_idle_coop/QA/Walk.swift:7: error: -[QuillWalk.pzWalk testFarmJourney] : Failed to tap "Barn" Button: No matches found for Descendants matching type TabBar from input {(
+    Application, pid: 66015, label: 'Farm Idle: Coop'
+)}
+Possibly caused by runtime issues:
+Automation type mismatch: computed Button from legacy attributes vs Cell from modern attribute. Input attributes and values: {
+    "XC_kAXXCAttributeAutomationType" = 75;
+    "XC_kAXXCAttributeElementBaseType" = "_UIFloatingTabBarItemCell";
+    "XC_kAXXCAttributeElementType" = "_UIFloatingTabBarItemCell";
+    "XC_kAXXCAttributeTraits" = 146297323520;
+}
+Automation type mismatch: computed Button from legacy attributes vs Cell from modern attribute. Input attributes and values: {
+    "XC_kAXXCAttributeAutomationType" = 75;
+    "XC_kAXXCAttributeElementBaseType" = "_UIFloatingTabBarItemCell";
+    "XC_kAXXCAttributeElementType" = "_UIFloatingTabBarItemCell";
+    "XC_kAXXCAttributeTraits" = 146297323528;
+}
+Automation type mismatch: computed Button from legacy attributes vs Other from modern attribute. Input attributes and values: {
+    "XC_kAXXCAttributeAutomationType" = 0;
+    "XC_kAXXCAttributeElementBaseType" = "_UIFloatingTabBarItemView";
+    "XC_kAXXCAttributeElementType" = "_UIFloatingTabBarItemView";
+    "XC_kAXXCAttributeTraits" = 8858370056;
+}
+Automation type mismatch: computed Button from legacy attributes vs Other from modern attribute. Input attributes and values: {
+    "XC_kAXXCAttributeAutomationType" = 0;
+    "XC_kAXXCAttributeElementBaseType" = "_UIFloatingTabBarItemView";
+    "XC_kAXXCAttributeElementType" = "_UIFloatingTabBarItemView";
+    "XC_kAXXCAttributeTraits" = 8858370048;
+}
+See test report attachments for more detail.
+    t =    41.96s Tear Down
+Test Case '-[QuillWalk.pzWalk testFarmJourney]' failed (42.431 seconds).
+Test Case '-[QuillWalk.pzWalk testLocalizedLaunches]' started.
+    t =     0.00s Start Test at 2026-11-15 12:39:53.754
+    t =     0.06s Set Up
+    t =     0.06s Open net.meadowquill.coop731
+    t =     0.06s     Launch net.meadowquill.coop731
+    t =     0.06s         Terminate net.meadowquill.coop731:66015
+2026-11-15 12:39:54.877 xcodebuild[61333:6294088] [MT] IDELaunchParametersSnapshot: debugger version lookup failed for path '<nil>': noURL
+2026-11-15 12:39:54.877 xcodebuild[61333:6294088] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.96s         Setting up automation session
+    t =     8.65s         Wait for net.meadowquill.coop731 to idle
+    t =    23.22s Waiting 15.0s for "settings" Button to exist
+    t =    24.25s     Checking `Expect predicate `existsNoRetry == 1` for object "settings" Button`
+    t =    24.25s         Checking existence of `"settings" Button`
+    t =    24.72s Checking existence of `"Scheune" Button`
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/04_chicken_road/03_farm_idle_coop/QA/Walk.swift:18: error: -[QuillWalk.pzWalk testLocalizedLaunches] : XCTAssertTrue failed
+    t =    24.86s Find the Target Application 'net.meadowquill.coop731'
+    t =    25.22s Added attachment named 'locale-de'
+    t =    25.23s Terminate net.meadowquill.coop731:67603
+    t =    26.29s Open net.meadowquill.coop731
+    t =    26.29s     Launch net.meadowquill.coop731
+2026-11-15 12:40:20.054 xcodebuild[61333:6294088] [MT] IDELaunchParametersSnapshot: debugger version lookup failed for path '<nil>': noURL
+2026-11-15 12:40:20.054 xcodebuild[61333:6294088] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =    26.59s         Setting up automation session
+    t =    30.19s         Wait for net.meadowquill.coop731 to idle
+    t =    32.45s Waiting 15.0s for "settings" Button to exist
+    t =    33.48s     Checking `Expect predicate `existsNoRetry == 1` for object "settings" Button`
+    t =    33.48s         Checking existence of `"settings" Button`
+    t =    33.65s Checking existence of `"Grange" Button`
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/04_chicken_road/03_farm_idle_coop/QA/Walk.swift:18: error: -[QuillWalk.pzWalk testLocalizedLaunches] : XCTAssertTrue failed
+    t =    33.72s Find the Target Application 'net.meadowquill.coop731'
+    t =    34.02s Added attachment named 'locale-fr'
+    t =    34.02s Terminate net.meadowquill.coop731:68763
+    t =    35.03s Open net.meadowquill.coop731
+    t =    35.03s     Launch net.meadowquill.coop731
+2026-11-15 12:40:28.793 xcodebuild[61333:6294088] [MT] IDELaunchParametersSnapshot: debugger version lookup failed for path '<nil>': noURL
+2026-11-15 12:40:28.793 xcodebuild[61333:6294088] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =    35.32s         Setting up automation session
+    t =    39.58s         Wait for net.meadowquill.coop731 to idle
+    t =    42.02s Waiting 15.0s for "settings" Button to exist
+    t =    43.05s     Checking `Expect predicate `existsNoRetry == 1` for object "settings" Button`
+    t =    43.05s         Checking existence of `"settings" Button`
+    t =    43.29s Checking existence of `"Celeiro" Button`
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/04_chicken_road/03_farm_idle_coop/QA/Walk.swift:18: error: -[QuillWalk.pzWalk testLocalizedLaunches] : XCTAssertTrue failed
+    t =    43.41s Find the Target Application 'net.meadowquill.coop731'
+    t =    43.71s Added attachment named 'locale-pt-BR'
+    t =    43.71s Terminate net.meadowquill.coop731:69219
+    t =    44.73s Tear Down
+Test Case '-[QuillWalk.pzWalk testLocalizedLaunches]' failed (45.226 seconds).
+Test Case '-[QuillWalk.pzWalk testWidgetSurfaces]' started.
+    t =     0.00s Start Test at 2026-11-15 12:40:38.982
+    t =     0.04s Set Up
+IOSurfaceClientSetSurfaceNotify failed e00002c7
+2026-11-15 12:40:39.169124+0300 QuillWalk-Runner[63907:6312205] fopen failed for data file: errno = 2 (No such file or directory)
+2026-11-15 12:40:39.745581+0300 QuillWalk-Runner[63907:6312205] fopen failed for data file: errno = 2 (No such file or directory)
+2026-11-15 12:40:39.762468+0300 QuillWalk-Runner[63907:6312205] [error] building pipeline path_exterior-jba10la3ge2ba4 took 0.593799 seconds
+    t =     0.84s Added attachment named 'widget-small-fixture'
+2026-11-15 12:40:39.906816+0300 QuillWalk-Runner[63907:6308905] [Invalid Configuration] Unable to render flattened version of PlatformViewRepresentableAdaptor<Base>.
+2026-11-15 12:40:40.443517+0300 QuillWalk-Runner[63907:6312205] [error] building pipeline path_exterior-jfa10la3ge2ba4 took 0.530346 seconds
+    t =     1.57s Added attachment named 'widget-medium-fixture'
+    t =     1.92s Added attachment named 'widget-large-fixture'
+2026-11-15 12:40:40.903978+0300 QuillWalk-Runner[63907:6308905] [Invalid Configuration] Unable to render flattened version of PlatformViewRepresentableAdaptor<Base>.
+    t =     1.93s Added attachment named 'widget-lock-fixture'
+    t =     1.93s Tear Down
+Test Case '-[QuillWalk.pzWalk testWidgetSurfaces]' passed (2.102 seconds).
+Test Case '-[QuillWalk.pzWalk testZRealHarvest]' started.
+    t =     0.00s Start Test at 2026-11-15 12:40:41.084
+    t =     0.02s Set Up
+    t =     0.02s Open net.meadowquill.coop731
+    t =     0.02s     Launch net.meadowquill.coop731
+2026-11-15 12:40:41.110 xcodebuild[61333:6294088] [MT] IDELaunchParametersSnapshot: debugger version lookup failed for path '<nil>': noURL
+2026-11-15 12:40:41.110 xcodebuild[61333:6294088] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     0.45s         Setting up automation session
+    t =     3.79s         Wait for net.meadowquill.coop731 to idle
+    t =     6.08s Waiting 15.0s for "settings" Button to exist
+    t =     7.12s     Checking `Expect predicate `existsNoRetry == 1` for object "settings" Button`
+    t =     7.12s         Checking existence of `"settings" Button`
+    t =     7.29s Swipe up Target Application 'net.meadowquill.coop731'
+    t =     7.29s     Wait for net.meadowquill.coop731 to idle
+    t =     7.29s     Find the Target Application 'net.meadowquill.coop731'
+    t =     7.34s     Check for interrupting elements affecting "Farm Idle: Coop" Application
+    t =     7.57s         Wait for com.apple.springboard to idle
+    t =     7.92s     Synthesize event
+    t =     8.50s     Wait for net.meadowquill.coop731 to idle
+    t =    10.20s Checking `Expect predicate `enabled == 1` for object "collect" Button`
+    t =    10.20s     Find the "collect" Button
+    t =    10.28s Tap "collect" Button
+    t =    10.28s     Wait for net.meadowquill.coop731 to idle
+    t =    10.28s     Find the "collect" Button
+    t =    10.54s     Check for interrupting elements affecting "collect" Button
+    t =    10.63s         Wait for com.apple.springboard to idle
+    t =    10.67s     Synthesize event
+    t =    11.13s     Wait for net.meadowquill.coop731 to idle
+    t =    11.57s Find the Target Application 'net.meadowquill.coop731'
+    t =    11.79s Added attachment named '09-real-harvest'
+    t =    11.79s Tap "Market" Button
+    t =    11.79s     Wait for net.meadowquill.coop731 to idle
+    t =    11.79s     Find the "Market" Button
+    t =    12.90s         Find the "Market" Button (retry 1)
+    t =    13.96s         Find the "Market" Button (retry 2)
+    t =    14.00s Requesting snapshot of accessibility hierarchy for app with pid 69982
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/04_chicken_road/03_farm_idle_coop/QA/Walk.swift:41: error: -[QuillWalk.pzWalk testZRealHarvest] : Failed to tap "Market" Button: No matches found for Descendants matching type TabBar from input {(
+    Application, pid: 69982, label: 'Farm Idle: Coop'
+)}
+Possibly caused by runtime issues:
+Automation type mismatch: computed Button from legacy attributes vs Cell from modern attribute. Input attributes and values: {
+    "XC_kAXXCAttributeAutomationType" = 75;
+    "XC_kAXXCAttributeElementBaseType" = "_UIFloatingTabBarItemCell";
+    "XC_kAXXCAttributeElementType" = "_UIFloatingTabBarItemCell";
+    "XC_kAXXCAttributeTraits" = 146297323520;
+}
+Automation type mismatch: computed Button from legacy attributes vs Cell from modern attribute. Input attributes and values: {
+    "XC_kAXXCAttributeAutomationType" = 75;
+    "XC_kAXXCAttributeElementBaseType" = "_UIFloatingTabBarItemCell";
+    "XC_kAXXCAttributeElementType" = "_UIFloatingTabBarItemCell";
+    "XC_kAXXCAttributeTraits" = 146297323528;
+}
+Automation type mismatch: computed Button from legacy attributes vs Other from modern attribute. Input attributes and values: {
+    "XC_kAXXCAttributeAutomationType" = 0;
+    "XC_kAXXCAttributeElementBaseType" = "_UIFloatingTabBarItemView";
+    "XC_kAXXCAttributeElementType" = "_UIFloatingTabBarItemView";
+    "XC_kAXXCAttributeTraits" = 8858370056;
+}
+Automation type mismatch: computed Button from legacy attributes vs Other from modern attribute. Input attributes and values: {
+    "XC_kAXXCAttributeAutomationType" = 0;
+    "XC_kAXXCAttributeElementBaseType" = "_UIFloatingTabBarItemView";
+    "XC_kAXXCAttributeElementType" = "_UIFloatingTabBarItemView";
+    "XC_kAXXCAttributeTraits" = 8858370048;
+}
+See test report attachments for more detail.
+    t =    14.08s Tear Down
+Test Case '-[QuillWalk.pzWalk testZRealHarvest]' failed (14.836 seconds).
+Test Suite 'pzWalk' failed at 2026-11-15 12:40:55.921.
+	 Executed 4 tests, with 5 failures (0 unexpected) in 104.595 (104.611) seconds
+Test Suite 'QuillWalk.xctest' failed at 2026-11-15 12:40:55.921.
+	 Executed 4 tests, with 5 failures (0 unexpected) in 104.595 (104.612) seconds
+Test Suite 'All tests' failed at 2026-11-15 12:40:55.921.
+	 Executed 4 tests, with 5 failures (0 unexpected) in 104.595 (104.613) seconds
+2026-11-15 12:40:56.744 xcodebuild[61333:6313959]  IDETestOperationsObserverDebug: Failure collecting diagnostics from simulator: Process exited with error 72:
+ xcrun: error: unable to find utility "simctl", not a developer tool or in PATH
+
+2026-11-15 12:40:56.953 xcodebuild[61333:6294088] [MT] IDETestOperationsObserverDebug: 184.900 elapsed -- Testing started completed.
+2026-11-15 12:40:56.953 xcodebuild[61333:6294088] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-11-15 12:40:56.953 xcodebuild[61333:6294088] [MT] IDETestOperationsObserverDebug: 184.900 sec, +184.900 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/04_chicken_road/03_farm_idle_coop/QA/iPad.xcresult
+
+Failing tests:
+	pzWalk.testFarmJourney()
+	pzWalk.testLocalizedLaunches()
+	pzWalk.testZRealHarvest()
+
+** TEST EXECUTE FAILED **
+
+Testing started

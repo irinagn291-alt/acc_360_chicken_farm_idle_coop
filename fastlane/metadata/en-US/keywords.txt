@@ -1,0 +1,1 @@
+chicken,farming,idle,flock,grain,nest,meadow,market,offline,upgrades

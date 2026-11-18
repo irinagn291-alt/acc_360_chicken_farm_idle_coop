@@ -1,0 +1,98 @@
+Application, 0x107871180, pid: 66015, label: 'Farm Idle: Coop' <App element pid: 66015>
+  Window (Main), 0x107871540, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4339433472.4>
+    Other, 0x107871900, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4340276736.6>
+    Other, 0x1078717c0, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4384305664.7>
+      Other, 0x107871a40, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4384306944.9>
+        Other, 0x107871cc0, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4339485184.11>
+          Other, 0x107871f40, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4394828576.12>
+            Other, 0x107872080, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4383222784.13>
+              NavigationBar, 0x107872300, {{0.0, 32.0}, {1032.0, 106.0}}, identifier: 'Farm Idle: Coop' <AX element pid: 66015, elementOrHash.elementID: 4384086784.14>
+                Other, 0x107871e00, {{982.0, 36.0}, {36.0, 36.0}} <AX element pid: 66015, elementOrHash.elementID: 4393829632.17>
+                  Other, 0x107872440, {{982.0, 36.0}, {36.0, 36.0}} <AX element pid: 66015, elementOrHash.elementID: 4394840416.21>
+                    Button, 0x107872800, {{984.5, 36.0}, {31.0, 36.0}}, identifier: 'settings', label: 'Farm settings' <AX element pid: 66015, elementOrHash.elementID: 4394837536.23>
+                StaticText, 0x107872940, {{20.0, 89.5}, {245.5, 41.0}}, label: 'Farm Idle: Coop' <AX element pid: 66015, elementOrHash.elementID: 4383220224.18>
+              Other, 0x107872580, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4340288576.15>
+                Other, 0x107872a80, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4384264704.19>
+                  Other, 0x107872bc0, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4339435520.22>
+                    Other, 0x107872e40, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4528921952.24>
+                      Other, 0x107872d00, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4383224320.25>
+                        Other, 0x107872f80, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4392391680.26>
+                          Other, 0x107873200, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4384260608.28>
+                            Other, 0x107873340, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4339489024.30>
+                              Other, 0x1078730c0, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4533798624.35>
+                                ScrollView, 0x107873480, {{0.0, 0.0}, {1032.0, 1376.0}}, identifier: 'surface0' <AX element pid: 66015, elementOrHash.elementID: 4383283200.40>
+                                  Other, 0x107873700, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4340873664.41>
+                                    Other, 0x107873840, {{0.0, 0.0}, {1032.0, 222.0}} <AX element pid: 66015, elementOrHash.elementID: 4340874560.45>
+                                  Other, 0x1078735c0, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4340873216.42>
+                                  Other, 0x107873980, {{0.0, 202.0}, {1032.0, 1081.0}} <AX element pid: 66015, elementOrHash.elementID: 4528442496.43>
+                                    StaticText, 0x107873c00, {{25.5, 223.5}, {104.0, 18.0}}, label: '0 care days' <AX element pid: 66015, elementOrHash.elementID: 4394830016.46>
+                                    StaticText, 0x107873d40, {{963.0, 222.5}, {45.0, 18.0}}, label: '80' <AX element pid: 66015, elementOrHash.elementID: 4394838816.47>
+                                    StaticText, 0x107873ac0, {{20.0, 261.5}, {251.0, 91.0}}, label: 'A little care.
+A happy flock.' <AX element pid: 66015, elementOrHash.elementID: 4394828896.48>
+                                    StaticText, 0x107873e80, {{939.0, 286.0}, {73.0, 14.5}}, label: 'YOUR FARM' <AX element pid: 66015, elementOrHash.elementID: 4394828736.49>
+                                    StaticText, 0x107870c80, {{20.0, 782.5}, {322.5, 110.5}}, label: '3/4, Hens' <AX element pid: 66015, elementOrHash.elementID: 4394832416.50>
+                                      Image, 0x107870a00, {{38.0, 800.0}, {20.5, 22.5}}, identifier: 'bird.fill', label: 'Bird, Filled' <AX element pid: 66015, elementOrHash.elementID: 4394843776.70>
+                                      StaticText, 0x104a8bc00, {{36.0, 830.0}, {38.0, 26.5}}, label: '3/4' <AX element pid: 66015, elementOrHash.elementID: 4394842496.71>
+                                      StaticText, 0x104a89540, {{36.0, 862.5}, {29.5, 14.5}}, label: 'Hens' <AX element pid: 66015, elementOrHash.elementID: 4394839136.72>
+                                    StaticText, 0x104a89400, {{354.5, 785.5}, {323.0, 104.5}}, label: '0/24, In the nest' <AX element pid: 66015, elementOrHash.elementID: 4528929792.51>
+                                      Image, 0x108fdc000, {{372.0, 803.0}, {21.5, 16.5}}, identifier: 'oval.fill', label: 'Oval, Filled' <AX element pid: 66015, elementOrHash.elementID: 4394829216.73>
+                                      StaticText, 0x108fdc140, {{370.7, 827.0}, {52.5, 26.5}}, label: '0/24' <AX element pid: 66015, elementOrHash.elementID: 4394842176.74>
+                                      StaticText, 0x108fdc280, {{370.7, 859.5}, {60.0, 14.5}}, label: 'In the nest' <AX element pid: 66015, elementOrHash.elementID: 4394828416.75>
+                                    StaticText, 0x108fdc3c0, {{689.5, 785.0}, {322.5, 106.0}}, label: '0, Eggs in barn' <AX element pid: 66015, elementOrHash.elementID: 4528918752.52>
+                                      Image, 0x108fdc500, {{707.5, 802.5}, {19.5, 18.0}}, identifier: 'basket.fill', label: 'Shopping Basket With Handle, Filled' <AX element pid: 66015, elementOrHash.elementID: 4528929472.76>
+                                      StaticText, 0x108fdc640, {{705.3, 827.8}, {15.0, 26.5}}, label: '0' <AX element pid: 66015, elementOrHash.elementID: 4528929952.77>
+                                      StaticText, 0x108fdc780, {{705.3, 860.3}, {70.5, 14.5}}, label: 'Eggs in barn' <AX element pid: 66015, elementOrHash.elementID: 4528929152.78>
+                                    Other, 0x108fdc8c0, {{-575.0, 372.5}, {2331.0, 550.0}}, label: '3 hens in your farmyard' <AX element pid: 66015, elementOrHash.elementID: 4394833856.53>
+                                      Other, 0x108fdca00, {{532.4, 601.5}, {70.9, 77.8}} <AX element pid: 66015, elementOrHash.elementID: 4394830176.79>
+                                      Other, 0x108fdcb40, {{656.7, 601.5}, {70.9, 77.8}} <AX element pid: 66015, elementOrHash.elementID: 4394829376.80>
+                                      Other, 0x108fdcc80, {{790.4, 601.5}, {70.9, 77.8}} <AX element pid: 66015, elementOrHash.elementID: 4394838976.81>
+                                      Image, 0x108fdcdc0, {{41.0, 661.0}, {8.0, 8.0}}, identifier: 'sparkle', label: 'Sparkle Star' <AX element pid: 66015, elementOrHash.elementID: 4394834016.82>
+                                      Image, 0x108fdcf00, {{242.0, 661.0}, {8.0, 8.0}}, identifier: 'sparkle', label: 'Sparkle Star' <AX element pid: 66015, elementOrHash.elementID: 4394842336.83>
+                                      Image, 0x108fdd040, {{443.0, 661.0}, {8.0, 8.0}}, identifier: 'sparkle', label: 'Sparkle Star' <AX element pid: 66015, elementOrHash.elementID: 4394831776.84>
+                                      Image, 0x108fdd180, {{644.0, 661.0}, {8.0, 8.0}}, identifier: 'sparkle', label: 'Sparkle Star' <AX element pid: 66015, elementOrHash.elementID: 4394841536.85>
+                                      Image, 0x108fdd2c0, {{108.0, 696.0}, {8.0, 8.0}}, identifier: 'sparkle', label: 'Sparkle Star' <AX element pid: 66015, elementOrHash.elementID: 4394838496.86>
+                                      Image, 0x108fdd400, {{309.0, 696.0}, {8.0, 8.0}}, identifier: 'sparkle', label: 'Sparkle Star' <AX element pid: 66015, elementOrHash.elementID: 4394837696.87>
+                                      Image, 0x108fdd540, {{510.0, 696.0}, {8.0, 8.0}}, identifier: 'sparkle', label: 'Sparkle Star' <AX element pid: 66015, elementOrHash.elementID: 4394843936.88>
+                                      Image, 0x108fdd680, {{175.0, 731.0}, {8.0, 8.0}}, identifier: 'sparkle', label: 'Sparkle Star' <AX element pid: 66015, elementOrHash.elementID: 4394835936.89>
+                                      Image, 0x108fdd7c0, {{376.0, 731.0}, {8.0, 8.0}}, identifier: 'sparkle', label: 'Sparkle Star' <AX element pid: 66015, elementOrHash.elementID: 4394841856.90>
+                                      Image, 0x108fdd900, {{577.0, 731.0}, {8.0, 8.0}}, identifier: 'sparkle', label: 'Sparkle Star' <AX element pid: 66015, elementOrHash.elementID: 4394836096.91>
+                                    StaticText, 0x108fdda40, {{40.0, 933.0}, {103.0, 24.0}}, label: 'Nest check' <AX element pid: 66015, elementOrHash.elementID: 4528919072.54>
+                                    Image, 0x108fddb80, {{463.0, 937.0}, {21.5, 16.5}}, identifier: 'oval.fill', label: 'Oval, Filled' <AX element pid: 66015, elementOrHash.elementID: 4528918592.55>
+                                    StaticText, 0x108fddcc0, {{546.0, 933.0}, {119.0, 24.0}}, label: 'Feeding time' <AX element pid: 66015, elementOrHash.elementID: 4528922432.56>
+                                    Image, 0x108fdde00, {{972.5, 937.5}, {18.0, 15.5}}, identifier: 'leaf.fill', label: 'Leaf' <AX element pid: 66015, elementOrHash.elementID: 4528922752.57>
+                                    ProgressIndicator, 0x108fddf40, {{40.0, 971.0}, {446.0, 4.0}}, value: 1% <AX element pid: 66015, elementOrHash.elementID: 4528922112.58>
+                                      ProgressIndicator, 0x108fde080, {{40.0, 961.0}, {446.0, 24.0}}, value: 1% <AX element pid: 66015, elementOrHash.elementID: 4394874624.92>
+                                    StaticText, 0x108fde1c0, {{546.0, 971.0}, {102.0, 18.0}}, label: 'Grain in trough' <AX element pid: 66015, elementOrHash.elementID: 4528923552.59>
+                                    StaticText, 0x108fde300, {{929.0, 971.0}, {63.0, 18.0}}, label: '11.9 / 12' <AX element pid: 66015, elementOrHash.elementID: 4528930592.60>
+                                    StaticText, 0x108fde440, {{40.0, 989.0}, {162.0, 18.0}}, label: 'Next egg in 25 seconds' <AX element pid: 66015, elementOrHash.elementID: 4528922592.61>
+                                    ProgressIndicator, 0x108fde580, {{546.0, 1003.0}, {446.0, 4.0}}, value: 99% <AX element pid: 66015, elementOrHash.elementID: 4533797024.62>
+                                      ProgressIndicator, 0x108fde6c0, {{546.0, 993.0}, {446.0, 24.0}}, value: 99% <AX element pid: 66015, elementOrHash.elementID: 4528439936.93>
+                                    Button, 0x108fde800, {{40.0, 1021.0}, {446.0, 51.5}}, identifier: 'collect', label: 'Collect 0 eggs', Disabled <AX element pid: 66015, elementOrHash.elementID: 4528930432.63>
+                                      StaticText, 0x108fde940, {{192.5, 1037.0}, {143.2, 20.5}}, label: 'Collect 0 eggs', Disabled <AX element pid: 66015, elementOrHash.elementID: 4528923072.94>
+                                      Image, 0x108fdea80, {{192.5, 1037.5}, {20.0, 18.5}}, identifier: 'basket.fill', label: 'Shopping Basket With Handle, Filled', Disabled <AX element pid: 66015, elementOrHash.elementID: 4528930272.95>
+                                    StaticText, 0x108fdebc0, {{546.0, 1021.0}, {151.0, 18.0}}, label: 'Feed lasts 40 minutes' <AX element pid: 66015, elementOrHash.elementID: 4533797184.64>
+                                    Button, 0x108fded00, {{546.0, 1053.0}, {446.0, 53.0}}, identifier: 'feed', label: 'Fill the trough' <AX element pid: 66015, elementOrHash.elementID: 4533797664.65>
+                                      Image, 0x108fdee40, {{702.5, 1069.5}, {17.5, 19.5}}, identifier: 'leaf.arrow.triangle.circlepath', label: 'Leaf With A Triangular Arrow In A Circular Path' <AX element pid: 66015, elementOrHash.elementID: 4533797344.96>
+                                      StaticText, 0x108fdef80, {{702.5, 1069.5}, {134.5, 21.5}}, label: 'Fill the trough' <AX element pid: 66015, elementOrHash.elementID: 4533797504.97>
+                                    StaticText, 0x108fdf0c0, {{42.0, 1166.0}, {128.0, 20.5}}, label: 'Today's care' <AX element pid: 66015, elementOrHash.elementID: 4533797984.66>
+                                    StaticText, 0x108fdf200, {{40.0, 1198.5}, {415.0, 18.0}}, label: 'Collect eggs or fill the trough to keep your care streak going.' <AX element pid: 66015, elementOrHash.elementID: 4533798144.67>
+                                    StaticText, 0x108fdf340, {{40.0, 1228.5}, {124.0, 14.5}}, label: '0 eggs collected in all' <AX element pid: 66015, elementOrHash.elementID: 4533798304.68>
+                                  Other, 0x108fdf480, {{999.0, 86.0}, {30.0, 1258.0}}, label: 'Vertical scroll bar, 1 page', value: 0% <AX element pid: 66015, elementOrHash.elementID: 4384202240.44>
+                                    Other, 0x108fdf5c0, {{1026.0, 278.0}, {3.0, 1063.0}} <AX element pid: 66015, elementOrHash.elementID: 4340874112.69>
+                                  Other, 0x108fdf700, {{999.0, 86.0}, {30.0, 1258.0}}, label: 'Vertical scroll bar, 1 page', value: 0% <AX element pid: 66015, elementOrHash.elementID: 4384202240.44>
+                                    Other, 0x108fdf840, {{1026.0, 278.0}, {3.0, 1063.0}} <AX element pid: 66015, elementOrHash.elementID: 4340874112.69>
+                        Other, 0x108fdf980, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4339440640.27>
+                          Other, 0x108fdfac0, {{0.0, 138.0}, {1032.0, 44.0}} <AX element pid: 66015, elementOrHash.elementID: 4385472512.29>
+                            Button, 0x108fdfc00, {{368.0, 142.0}, {67.5, 36.0}}, identifier: 'sun.max.fill', label: 'Yard', Selected <AX element pid: 66015, elementOrHash.elementID: 4384095232.31>
+                              Button, 0x108fdfd40, {{368.0, 142.0}, {67.5, 36.0}}, identifier: 'sun.max.fill', label: 'Yard', Selected <AX element pid: 66015, elementOrHash.elementID: 4384272384.36>
+                            Button, 0x108fdfe80, {{435.5, 142.0}, {68.5, 36.0}}, identifier: 'shippingbox.fill', label: 'Barn' <AX element pid: 66015, elementOrHash.elementID: 4526407680.32>
+                              Button, 0x108fe0000, {{435.5, 142.0}, {68.5, 36.0}}, identifier: 'shippingbox.fill', label: 'Barn' <AX element pid: 66015, elementOrHash.elementID: 4384274944.37>
+                            Button, 0x108fe0140, {{504.0, 142.0}, {86.5, 36.0}}, identifier: 'basket.fill', label: 'Market' <AX element pid: 66015, elementOrHash.elementID: 4526408448.33>
+                              Button, 0x108fe0280, {{504.0, 142.0}, {86.5, 36.0}}, identifier: 'basket.fill', label: 'Market' <AX element pid: 66015, elementOrHash.elementID: 4384228352.38>
+                            Button, 0x108fe03c0, {{590.5, 142.0}, {73.5, 36.0}}, identifier: 'leaf.fill', label: 'Grow' <AX element pid: 66015, elementOrHash.elementID: 4526409216.34>
+                              Button, 0x108fe0500, {{590.5, 142.0}, {73.5, 36.0}}, identifier: 'leaf.fill', label: 'Grow' <AX element pid: 66015, elementOrHash.elementID: 4384230912.39>
+              Toolbar, 0x108fe0640, {{0.0, 0.0}, {1032.0, 1376.0}}, identifier: 'Toolbar', label: 'Toolbar' <AX element pid: 66015, elementOrHash.elementID: 4383223296.16>
+                Other, 0x108fe0780, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4392386560.20>
+  Window, 0x108fe08c0, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4393830912.5>
+    Other, 0x108fe0a00, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4384206336.8>
+      Other, 0x108fe0b40, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 66015, elementOrHash.elementID: 4384207872.10>

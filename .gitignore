@@ -1,0 +1,7 @@
+Artifacts/Build/
+Artifacts/ReleaseBuild/
+Artifacts/ModuleCache/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+QA/EngineCheck

@@ -1,0 +1,18 @@
+{
+  "projectsCompared": 83,
+  "uuidOverlaps": [],
+  "bundleIdOverlaps": [],
+  "sourceMachineTraces": [],
+  "archiveMachineTraces": [],
+  "swiftFiles": 6,
+  "localizedStrings": 110,
+  "locales": [
+    "en",
+    "de",
+    "fr",
+    "pt-BR"
+  ],
+  "mainBundle": "net.meadowquill.coop731",
+  "widgetBundle": "net.meadowquill.coop731.sprig",
+  "appGroup": "group.net.meadowquill.coop731"
+}
